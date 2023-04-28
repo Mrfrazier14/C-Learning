@@ -24,7 +24,7 @@ int main()
         str.insert(str.end(),i->path().filename().string());
         }
         else
-            continue;
+            continue; 
     }
 
     //parse each string element in the vector, split from each delimiter 
